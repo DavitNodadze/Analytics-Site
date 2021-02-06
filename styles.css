@@ -51,16 +51,67 @@
 }
 
 .link-container {
-    display: flex;
-    list-style-type: none;
-    height: 100%;
+    margin: 50px;
 }
 
 .links {
     display: flex;
-    flex-direction: column;
+    white-space: nowrap;
+    margin: 25px;
+    cursor: pointer;
 }
 
+.link-text:hover {
+    color: blue;
+}
+
+
 .link-images {
-    flex-direction: column;
+    height: 22px;
+    width: 22px;
+    color: #A8ABB7;
+}
+
+
+.link-text {
+    font-size: 18px;
+    margin-left: 10px;
+}
+
+.menu-text {
+    font-style: bold;
+}
+
+.bot-part {
+    display: flex;
+    background-color: blue;
+    width: 221px;
+    height: 54px;
+    border-radius: 5px;
+    margin: 70px 0 0 30px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.upg-text {
+    margin-left: 50px;
+    color: white;
+}
+
+
+.bot-part1 {
+    display: flex;
+    background-color: #226bfca1;
+    width: 221px;
+    height: 54px;
+    border-radius: 5px;
+    margin: 20px 0 0 30px;
+    align-items: center;
+    cursor: pointer;
+}
+
+
+.contact-text {
+    margin-left: 50px;
+    color: blue;
 }
